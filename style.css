@@ -1,22 +1,19 @@
+img{width:120px;
+height:40px;}
 header{
-     position:fixed;
-    top:70px;
-    left:0px;
     width:100%;
-    height:60px;
+    height:40px;
     background-color:black;
 }
 
-
 header ul{float:left;
-          line-height:60px;
 }
 header ul li{float:left;
     list-style:none;
-    padding-right:100px;
+    padding-right:30px;
     color:white;
-    font-size:20px;
-    line-height:6px
+    font-size:15px;
+    line-height:10px;
 }
 
 
@@ -26,22 +23,32 @@ main{clear:both;
 
 .main-container{width:100%;
     margin:0 auto;
-    margin-top:100px;           
+    margin-top:20px;           
 }
 
 .left{float:left;
     width:70%;
-    height:500px;
+    height:800px;
     margin-bottom:50px;
     background-color:white;
 }
-.right{float:right;
-    width:30%;
-    height:500px;
-    margin-bottom:50px;
-    background-color:skyblue;
-}
+h1{border-bottom:2px solid black;}
+.main-left{font-size:15px;}
+.main2-left{float:left;
+width:100%;
+height:50%;
+margin-top:100px;
+background-color:lightgray;}
 
+.right{float:right;
+    width:25%;
+    height:800px;
+    margin-bottom:50px;
+    background-color:white;
+}
+h3{border-bottom:1px dotted black;}
+.right2{padding-top:20px;
+font-size:15px;}
 
 footer{clear:left;
     width:100%;
@@ -54,4 +61,16 @@ footer{clear:left;
     text-align:center;
     line-height:50px;
     
+}
+
+footer{clear:left;
+    width:100%;
+    height: 60px;
+    position: absolute;
+    bottom:0;
+    left:0px;
+    color:white;
+    background-color:black;
+    text-align:center;
+    line-height:60px;
 }
