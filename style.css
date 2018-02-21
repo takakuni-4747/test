@@ -31,7 +31,7 @@ main{clear:both;}
     margin-bottom:50px;
     background-color:white;
 }
-.main-left img{width: 90%;
+.main-left img{width: 100%;
     height: 300px;
 }
 h1{border-bottom:2px solid black;}
