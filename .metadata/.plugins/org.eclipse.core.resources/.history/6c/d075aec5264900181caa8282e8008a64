@@ -1,0 +1,39 @@
+package com.internousdev.ecsite.dto;
+
+public class LoginDTO {
+	public int LoginId;
+
+	public String LoginPass;
+
+	public String UserName;
+
+	public int getLoginId() {
+		return LoginId;
+	}
+
+	public void setLoginId(int loginId) {
+		LoginId = loginId;
+	}
+
+	public String getLoginPass() {
+		return LoginPass;
+	}
+
+	public void setLoginPass(String loginPass) {
+		LoginPass = loginPass;
+	}
+
+	public String getUserName() {
+		return UserName;
+	}
+
+	public void setUserName(String userName) {
+		UserName = userName;
+	}
+
+
+
+
+
+
+}
